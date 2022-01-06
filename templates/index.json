@@ -273,6 +273,88 @@
         "description": "",
         "full_width": false
       }
+    },
+    "164147337020b9c371": {
+      "type": "collage",
+      "blocks": {
+        "1641473370454f882c-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "1641473370454f882c-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "1641473370454f882c-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1641473370454f882c-0",
+        "1641473370454f882c-1",
+        "1641473370454f882c-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1641473422a6faded0": {
+      "type": "collection-list",
+      "blocks": {
+        "1641473422f9559381-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1641473422f9559381-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1641473422f9559381-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1641473422f9559381-0",
+        "1641473422f9559381-1",
+        "1641473422f9559381-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "16414734240bf5aec2": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form"
+      }
     }
   },
   "order": [
@@ -283,6 +365,9 @@
     "video",
     "multi_column",
     "16413913201b6db4b0",
-    "16413913383c8805c1"
+    "16413913383c8805c1",
+    "164147337020b9c371",
+    "1641473422a6faded0",
+    "16414734240bf5aec2"
   ]
 }
