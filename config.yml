@@ -1,0 +1,7 @@
+development:
+  password: shptka_50cd2fb61d47c366e06b1d7cb6ae7aee 
+  theme_id: "129918173401"
+  store: havaianas-github-poc.myshopify.com
+  ignore_files:
+    - src/config/settings_data.json
+
