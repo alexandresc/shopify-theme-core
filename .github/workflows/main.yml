@@ -1,0 +1,22 @@
+name: Deploy to staging
+
+on:
+  push:
+    branches:
+      - staging
+
+jobs:
+  deploy-staging:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Shopify
+        uses: alexandresc/test-shopify-github-actions@main
+        env:
+          SHOPIFY_PASSWORD: ${{ secrets.SHOPIFY_PASSWORD }}
+          SHOPIFY_STORE_URL: ${{ secrets.SHOPIFY_STORE_URL }}
+          SHOPIFY_THEME_ID: ${{ secrets.SHOPIFY_THEME_ID_STAGING }}
+          THEME_PATH: ${{ secrets.THEME_PATH }}
+        with:
+            args: --ignored-file=config/settings_data.json --ignored-file=templates/*.json --verbose
