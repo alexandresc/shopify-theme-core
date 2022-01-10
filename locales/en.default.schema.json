@@ -994,7 +994,8 @@
         }
       },
       "presets": {
-        "name": "Image banner"
+        "name": "Image banner",
+        "alt-name": "New Image banner"
       }
     },
     "image-with-text": {
